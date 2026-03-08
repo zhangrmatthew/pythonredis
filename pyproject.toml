@@ -1,0 +1,13 @@
+[project]
+name = "redis-clone"
+version = "0.1.0"
+description = "A Redis clone written in Python"
+requires-python = ">=3.14"
+dependencies = [
+    "typer",
+    "pytest",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
